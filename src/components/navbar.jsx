@@ -4,7 +4,7 @@ function Navbar(){
     return(
         <div>
             <nav>
-                <div>
+                <div className='menu'>
                     <a href="">Log in</a>
                     <a href="">Search</a>
                     <a href="">Subscribe</a>
@@ -12,7 +12,7 @@ function Navbar(){
                 </div>
             </nav>
         </div>
-    );
+    ); 
 }
 
 export default Navbar;

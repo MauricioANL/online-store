@@ -4,17 +4,18 @@
     justify-content: space-around;
     height: 60px;
     align-items: center;
+    background-color: greenyellow;
 }
 
-a{
+.menu a{
     text-transform: uppercase;
     font-size: 18px;
-    color: rgb(5,56,77);
+    color: brown;
     letter-spacing: 1px;
     font-weight: bolder;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-a:hover{
+.menu a:hover{
     color: red;
 }
