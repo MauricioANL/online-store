@@ -1,5 +1,6 @@
 import './styles/catalog.css';
 import Product from '../components/product';
+import Footer from '../components/footer.jsx';
 import DataService from '../services/DataService.js';
 import {useState, useEffect } from 'react';
 function Catalog(){

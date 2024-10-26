@@ -1,10 +1,10 @@
 .menu{
     padding:5px;
     display:flex;
-    justify-content: space-around;
+    justify-content: left;
     height: 60px;
     align-items: center;
-    background-color: greenyellow;
+    background-color: lightgreen;
 }
 
 .menu a{
@@ -14,6 +14,7 @@
     letter-spacing: 1px;
     font-weight: bolder;
     text-decoration: none !important;
+    margin: 10px;
 }
 
 .menu a:hover{
